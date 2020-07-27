@@ -11,7 +11,7 @@ Dependencies:
 1. Clone the repository:
 
   ```shell
-  git clone https://github.com/k7moorthi/firefox-tv
+  git clone https://github.com/HyperWeavers/firefox-tv
   ```
 
 2. Import the project into Android Studio or build on the command line:
