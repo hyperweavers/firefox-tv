@@ -24,7 +24,7 @@
     <string name="menu_about">製品情報</string>
     <string name="preference_language">言語</string>
 
-    <!-- This is shown when the user hasn't set a Firefox for Fire TV specific language, i.e. when Firefox for Fire TV
+    <!-- This is shown when the user hasn't set a Firefox for Android TV specific language, i.e. when Firefox for Android TV
          is using the system default language. -->
     <string name="preference_language_systemdefault">システム標準</string>
 
@@ -43,7 +43,7 @@
     <!-- This text is shown below the setting for disabling web fonts. Some websites use icons/images from a font and those do not show up if fonts are blocked.-->
     <string name="preference_performance_block_webfonts_summary">アイコンや画像が正常に表示されない場合があります</string>
 
-    <!-- In-app link (in settings) to Firefox for Fire TV privacy notice. -->
+    <!-- In-app link (in settings) to Firefox for Android TV privacy notice. -->
     <string name="preference_privacy_notice">プライバシー通知</string>
 
     <!-- Content description (not visible, for screen readers etc.): Navigate forward (browsing history) -->
@@ -57,11 +57,11 @@
 
     <string name="external_app_prompt_title">リンクを他のアプリで開く</string>
     <!-- This string is shown when the user has clicked a link that needs to be opened in a different app.
-         Argument 2 is the external app name, argument 1 is our name (i.e. Firefox for Fire TV). -->
+         Argument 2 is the external app name, argument 1 is our name (i.e. Firefox for Android TV). -->
     <string name="external_app_prompt">%1$s を離れて、%2$s でこのリンクを開いてください。</string>
     <!-- This text is the title of a dialog shown if no app could be found for a custom link protocol. -->
     <string name="external_app_prompt_no_app_title">リンクを開けるアプリを探す</string>
-    <!-- This text is shown in a dialog if no app could be found for a custom link protocol. %1$s is the name of the app (i.e. Firefox for Fire TV) and %2$s is the name of
+    <!-- This text is shown in a dialog if no app could be found for a custom link protocol. %1$s is the name of the app (i.e. Firefox for Android TV) and %2$s is the name of
          the app store installed on the device (usually that's Google Play). -->
     <string name="external_app_prompt_no_app">ご使用の端末にはこのリンクを開けるアプリがありません。%1$s を離れて、%2$s で開けるアプリを探してください。</string>
     <!-- This label is shown above a list of apps that can be used to open a given link -->
@@ -74,31 +74,31 @@
     <string name="your_rights">あなたの権利</string>
 
     <!-- Text shown in the "Your rights" screen.
-    %1$s will be replaced with the name of the app (e.g. Firefox for Fire TV)-->
+    %1$s will be replaced with the name of the app (e.g. Firefox for Android TV)-->
     <string name="your_rights_content1"><![CDATA[%1$s は Mozilla や他の貢献者によって開発されているフリーでオープンソースのソフトウェアです。]]></string>
 
     <!-- Text shown in the "Your rights" screen.
-    %1$s will be replaced with the name of the app (e.g. Firefox for Fire TV)
+    %1$s will be replaced with the name of the app (e.g. Firefox for Android TV)
     %2$s will be replaced with a URL linking to the MPL (e.g. https://www.mozilla.org/en-US/MPL/) -->
     <string name="your_rights_content2"><![CDATA["%1$s は "<a xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" href="%2$s">Mozilla Public License</a>" やその他オープンソースライセンスの条件に基づいて使用可能となっています。"]]></string>
 
     <!-- Text shown in the "Your rights" screen.
-    %1$s will be replaced with the name of the app (e.g. Firefox for Fire TV)
+    %1$s will be replaced with the name of the app (e.g. Firefox for Android TV)
     %2$s will be replaced with a URL linking to the trademark policy (e.g. https://www.mozilla.org/foundation/trademarks/policy/) -->
     <string name="your_rights_content3"><![CDATA["Mozilla、Firefox、%1$s の名称やロゴを含む、Mozilla Foundation および第三者の商標に関するいかなる権利やライセンスもあなたには与えられていません。追加の情報は "<a xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" href="%2$s">Mozilla &#21830;&#27161;&#12509;&#12522;&#12471;&#12540;</a>" をご覧ください。"]]></string>
 
     <!-- Text shown in the "Your rights" screen.
-    %1$s will be replaced with the name of the app (e.g. Firefox for Fire TV)
+    %1$s will be replaced with the name of the app (e.g. Firefox for Android TV)
     %2$s will be replaced with a URL linking to the list of licenses used by the dependencies.-->
     <string name="your_rights_content4"><![CDATA["%1$s の追加ソースコードは、様々な他のフリーおよびオープンソースの "<a xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" href="%2$s">&#12521;&#12452;&#12475;&#12531;&#12473;</a>" に基いて公開されています。"]]></string>
 
     <!-- Text shown in the "Your rights" screen.
-    %1$s will be replaced with the name of the app (e.g. Firefox for Fire TV)
+    %1$s will be replaced with the name of the app (e.g. Firefox for Android TV)
     %2$s will be replaced with a URL linking to the GPL
     %3$s will be replaced with a URL linking to the tracking protection wiki page (e.g. https://wiki.mozilla.org/Security/Tracking_protection#Lists) -->
     <string name="your_rights_content5"><![CDATA["%1$s は Disconnect, Inc. により提供されているブロックリストも "<a xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" href="%2$s">GNU General Public License v3</a>" の下で単独のリソースとして使用しており、それらは "<a xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" href="%3$s">&#12371;&#12385;&#12425;</a>" から入手可能です。"]]></string>
 
-    <!-- Firefox for Fire TV
+    <!-- Firefox for Android TV
     video strings -->
     <!-- Settings strings -->
     <string name="settings_cookies_dialog_title">すべての Cookie とサイトデータの消去</string>
@@ -113,7 +113,7 @@
     <string name="preference_mozilla_telemetry2">使用状況データを送信</string>
     <!-- Description text that explains the purpose of our telemetry
       Mock: https://user-images.githubusercontent.com/1721875/47298694-b809a880-d618-11e8-9e18-1d6d47d2045d.png
-      %1$s will be replaced with the name of the app (e.g. Firefox for Fire TV) -->
+      %1$s will be replaced with the name of the app (e.g. Firefox for Android TV) -->
     <string name="settings_telemetry_description">Mozilla は %1$s を皆さんに提供し改善するために必要な情報だけを収集するよう努めています。</string>
 
     <string name="turbo_mode">ターボモード</string>
@@ -218,19 +218,19 @@
     <string name="hint_press_back_to_close_overlay_a11y">戻るボタンを押すとブラウザーに戻ります</string>
     <!-- Hint text displayed when the browser is open.
      $IMAGE will be replaced with the image of a hardware menu button.
-     %1$s will be replaced with the name of the app (e.g. Firefox for Fire TV)
+     %1$s will be replaced with the name of the app (e.g. Firefox for Android TV)
      When the described button is pressed, the overlay will open and the browser will be hidden underneath it -->
     <string name="hint_press_menu_to_open_overlay">$IMAGE を押すと %1$s のホーム画面 (検索、設定など) に戻ります</string>
     <!-- Content description for a hint bar displayed when the browser is open.
-     %1$s will be replaced with the name of the app (e.g. Firefox for Fire TV)
+     %1$s will be replaced with the name of the app (e.g. Firefox for Android TV)
      When the described button is pressed, the overlay will open and the browser will be hidden underneath it -->
     <string name="hint_press_menu_to_open_overlay_a11y">メニューボタンを押すと %1$s のホーム画面 (検索、設定など) に戻ります</string>
 
     <!-- Firefox Accounts Strings-->
     <!-- Description for Sent tab buttons (in navigation toolbar & settings, both on the homescreen)
-     that will launch the Firefox Account sign-in experience so users can receive Firefox tabs on their Fire TV.
+     that will launch the Firefox Account sign-in experience so users can receive Firefox tabs on their Android TV.
      %1$s will be replaced with Firefox. -->
-    <string name="fxa_navigation_item_new">新機能！ Fire TV に %1$s のタブを送信します</string>
+    <string name="fxa_navigation_item_new">新機能！ Android TV に %1$s のタブを送信します</string>
     <!-- Description for Sent tab button in navigation toolbar
      that will launch the Firefox Account settings after the user is signed in. -->
     <string name="fxa_navigation_item_signed_in2">送信したタブの設定</string>
@@ -241,11 +241,11 @@
     <string name="fxa_preboarding_header">大きな画面でタブを表示</string>
     <!-- Instruction text for the Firefox Account sign-in pre-boarding, where we introduce the send tab feature.
     %1$s will be replaced with Firefox.
-    %2$s will be replaced with the name of our app (i.e. Firefox for Fire TV) -->
+    %2$s will be replaced with the name of our app (i.e. Firefox for Android TV) -->
     <string name="fxa_preboarding_instruction">ご使用のどの %1$s からでもタブを送信でき、ここに表示されます。%2$s にログインして始めましょう。</string>
     <!-- Instruction text for the Firefox Account sign-in pre-boarding, where we introduce the send tab feature.
     %1$s will be replaced with Firefox.
-    %2$s will be replaced with the name of our app (i.e. Firefox for Fire TV) -->
+    %2$s will be replaced with the name of our app (i.e. Firefox for Android TV) -->
     <string name="fxa_preboarding_instruction1">デスクトップ版またはモバイル版の %1$s から送信したタブがここに表示されます。%2$s にログインして始めましょう。</string>
     <!-- Sign-in button text for the Firefox Account sign-in pre-boarding, where we introduce the send tab feature. -->
     <string name="fxa_preboarding_primary_button">ログイン</string>
@@ -253,12 +253,12 @@
     <string name="fxa_preboarding_secondary_button">後で</string>
     <!-- Shown on the onboarding page that explains how to receive tabs that are sent from other devices.
          This text is announced to screen reader users when they focus an image that will display a graphic explaining the receive tab process-->
-    <string name="fxa_preboarding_image_a11y">タブを携帯電話やタブレットから Fire TV へ送信した図</string>
+    <string name="fxa_preboarding_image_a11y">タブを携帯電話やタブレットから Android TV へ送信した図</string>
     <!-- Header for Firefox Accounts onboarding screen, which is shown after signing in. -->
     <string name="fxa_onboarding_header">あなたのタブ。いつでも手元に。</string>
     <!-- Instruction text for Firefox Accounts onboarding screen, which is shown after signing in.
      %1$s will be replaced with Firefox. -->
-    <string name="fxa_onboarding_instruction">タブを受信する準備ができました。始めるには、デスクトップ版または iOS 版 %1$s で [端末にタブを送信] を選ぶか、Firefox Preview で [共有] を選んでください。次に Fire TV を選ぶと、すぐにタブが表示されます。</string>
+    <string name="fxa_onboarding_instruction">タブを受信する準備ができました。始めるには、デスクトップ版または iOS 版 %1$s で [端末にタブを送信] を選ぶか、Firefox Preview で [共有] を選んでください。次に Android TV を選ぶと、すぐにタブが表示されます。</string>
     <!-- Text on the dismiss button for Firefox Accounts onboarding screen, which is shown after signing in. -->
     <string name="fxa_onboarding_primary_button">了解しました</string>
     <!-- Toast shown on webpage when tab is sent from another device

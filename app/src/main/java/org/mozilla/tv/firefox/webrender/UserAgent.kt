@@ -44,7 +44,8 @@ object UserAgent {
 
         for (i in tokens.indices) {
             if (tokens[i].startsWith("Chrome")) {
-                tokens[i] = focusToken + " " + tokens[i]
+                // tokens[i] = focusToken + " " + tokens[i]
+                tokens[i] = tokens[i]
 
                 return TextUtils.join(" ", tokens)
             }

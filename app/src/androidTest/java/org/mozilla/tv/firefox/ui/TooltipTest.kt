@@ -19,7 +19,7 @@ private const val RELOAD_TEXT = "Reload website"
 private const val PIN_TEXT = "Pin to homescreen"
 private const val UNPIN_TEXT = "Unpin from homescreen"
 private const val DESKTOP_MODE_TEXT = "Request desktop version of this site"
-private const val FXA_SIGN_IN = "New! Send Firefox tabs to Fire TV"
+private const val FXA_SIGN_IN = "New! Send Firefox tabs to Android TV"
 private const val EXIT_TEXT = "Exit Firefox"
 
 /**

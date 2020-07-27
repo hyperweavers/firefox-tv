@@ -31,6 +31,6 @@ class DeviceInfo {
             "AFTEAMR311" to "Fire TV Edition - Insignia HD"
         )
 
-        return deviceCodeMap.getOrElse(Build.MODEL) { "Fire TV" }
+        return deviceCodeMap.getOrElse(Build.MODEL) { "Android TV" }
     }
 }
